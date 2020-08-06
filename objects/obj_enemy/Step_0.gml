@@ -1,3 +1,8 @@
+if(life <= 0)
+{
+	instance_destroy();
+}
+
 if(!place_free(x + spd * dir, y) || place_free(x + spd * dir, y + 1))
 {
 	dir *= -1;
@@ -21,3 +26,10 @@ else
 
 x += spd * dir;
 
+var collision = instance_place(x, y, obj_bullet);
+
+if(collision)
+{
+	with(collision) instance_destroy();
+	life--;
+}

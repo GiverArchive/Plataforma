@@ -8,3 +8,5 @@ dir = 1;
 
 fall_spd = spd;
 fall_multiplier = 0.3;
+
+life = 5;
