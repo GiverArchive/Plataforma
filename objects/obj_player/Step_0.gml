@@ -95,3 +95,8 @@ if(place_meeting(x, y, obj_enemy) && random(100) < 30)
 {
 	life--;
 }
+
+while(place_meeting(x, y, obj_slope))
+{
+	y--;
+}

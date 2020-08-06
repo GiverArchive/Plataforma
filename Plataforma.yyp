@@ -231,6 +231,22 @@
             }
         },
         {
+            "Key": "eceefae3-66a1-412f-ae94-a7f7d8e9abaa",
+            "Value": {
+                "id": "9766068f-1077-4649-89f3-dcf39f520372",
+                "resourcePath": "sprites\\spr_slope\\spr_slope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd50d495-cc8f-4c7c-a335-b57badd1f413",
+            "Value": {
+                "id": "d1f0f930-1059-4c18-a850-d6000956a741",
+                "resourcePath": "objects\\obj_slope\\obj_slope.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fdca9aae-06a4-4531-a034-810cd2476adb",
             "Value": {
                 "id": "47484f44-a6f5-4010-ad1f-d07d1f7f5732",
